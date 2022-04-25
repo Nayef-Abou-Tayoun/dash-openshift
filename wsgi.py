@@ -30,5 +30,5 @@ app.layout = html.Div(children=[
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
 if __name__ == '__main__':
-    app.run_server(host='127.0.0.1',port=8080, debug=True)
+    app.run_server(host='0.0.0.0',port=8080, debug=True)
 
